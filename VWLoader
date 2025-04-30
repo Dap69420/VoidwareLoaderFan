@@ -1,14 +1,3 @@
---[[
-
-		Gui2Lua™
-		10zOfficial
-		Version 1.0.0
-
-]]
-
-
--- Instances
-
 local Script = Instance.new("ScreenGui")
 local Background = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -80,7 +69,7 @@ local Buy_2 = Instance.new("TextButton")
 local UICorner_25 = Instance.new("UICorner")
 local OtherO = Instance.new("TextButton")
 local UICorner_26 = Instance.new("UICorner")
-local Toggle = Instance.new("TextButton")
+local Toggle = Instance.new("ImageButton")
 local UICorner_27 = Instance.new("UICorner")
 
 -- Properties
@@ -715,63 +704,58 @@ UICorner_26.Parent = OtherO
 
 Toggle.Name = "Toggle"
 Toggle.Parent = Script
-Toggle.BackgroundColor3 = Color3.new(0.384314, 0.384314, 0.384314)
+Toggle.BackgroundColor3 = Color3.new(1, 1, 1)
 Toggle.BorderColor3 = Color3.new(0, 0, 0)
 Toggle.BorderSizePixel = 0
-Toggle.Position = UDim2.new(0.410256714, 0, 0.0202155765, 0)
-Toggle.Size = UDim2.new(0.150566861, 0, 0.0655021816, 0)
-Toggle.Font = Enum.Font.FredokaOne
-Toggle.Text = "Toggle"
-Toggle.TextColor3 = Color3.new(1, 1, 1)
-Toggle.TextScaled = true
-Toggle.TextSize = 20
-Toggle.TextWrapped = true
+Toggle.Position = UDim2.new(0.480149359, 0, -0.000642199011, 0)
+Toggle.Size = UDim2.new(0.0375970192, 0, 0.0590642169, 0)
+Toggle.Image = "http://www.roblox.com/asset/?id=113903023468514"
 
 UICorner_27.Parent = Toggle
 
 -- Scripts
 
-local function NUJDSFF_fake_script() -- OldE.LocalScript 
+local function OGGQ_fake_script() -- OldE.LocalScript 
 	local script = Instance.new('LocalScript', OldE)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/vapevoidware/main/NewMainScript.lua', true))()
 	end)
 end
-coroutine.wrap(NUJDSFF_fake_script)()
-local function RLFDEP_fake_script() -- ReC.LocalScript 
+coroutine.wrap(OGGQ_fake_script)()
+local function VUOQGFS_fake_script() -- ReC.LocalScript 
 	local script = Instance.new('LocalScript', ReC)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VWExtra/main/installer.lua", true))()
 	end)
 end
-coroutine.wrap(RLFDEP_fake_script)()
-local function PMXVW_fake_script() -- ReE.LocalScript 
+coroutine.wrap(VUOQGFS_fake_script)()
+local function EGYBFD_fake_script() -- ReE.LocalScript 
 	local script = Instance.new('LocalScript', ReE)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWRewrite/main/NewMainScript.lua', true))()
 	end)
 end
-coroutine.wrap(PMXVW_fake_script)()
-local function ARLR_fake_script() -- RiseE.LocalScript 
+coroutine.wrap(EGYBFD_fake_script)()
+local function IXCPQJ_fake_script() -- RiseE.LocalScript 
 	local script = Instance.new('LocalScript', RiseE)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWRise/refs/heads/main/NewMainScript.lua', true))()
 	end)
 end
-coroutine.wrap(ARLR_fake_script)()
-local function FDGP_fake_script() -- PacketE.LocalScript 
+coroutine.wrap(IXCPQJ_fake_script)()
+local function WNCSKDG_fake_script() -- PacketE.LocalScript 
 	local script = Instance.new('LocalScript', PacketE)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWPacket/main/NewMainScript.lua', true))()
 	end)
 end
-coroutine.wrap(FDGP_fake_script)()
-local function MUOXFY_fake_script() -- Buy.LocalScript 
+coroutine.wrap(WNCSKDG_fake_script)()
+local function BQYUW_fake_script() -- Buy.LocalScript 
 	local script = Instance.new('LocalScript', Buy)
 
 	
@@ -782,32 +766,32 @@ local function MUOXFY_fake_script() -- Buy.LocalScript
 		MarketplaceService:PromptGamePassPurchase(game.Players.LocalPlayer, GamepassID)
 	end)
 end
-coroutine.wrap(MUOXFY_fake_script)()
-local function HLYWSN_fake_script() -- Execute.LocalScript 
+coroutine.wrap(BQYUW_fake_script)()
+local function DMQVHOJ_fake_script() -- Execute.LocalScript 
 	local script = Instance.new('LocalScript', Execute)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWRewrite/main/NewMainScript.lua', true))()
 	end)
 end
-coroutine.wrap(HLYWSN_fake_script)()
-local function CDIR_fake_script() -- Execute_2.LocalScript 
+coroutine.wrap(DMQVHOJ_fake_script)()
+local function TKBACG_fake_script() -- Execute_2.LocalScript 
 	local script = Instance.new('LocalScript', Execute_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 	end)
 end
-coroutine.wrap(CDIR_fake_script)()
-local function CHXT_fake_script() -- Execute_3.LocalScript 
+coroutine.wrap(TKBACG_fake_script)()
+local function SSQQR_fake_script() -- Execute_3.LocalScript 
 	local script = Instance.new('LocalScript', Execute_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
 	end)
 end
-coroutine.wrap(CHXT_fake_script)()
-local function BKJYDYS_fake_script() -- Buy_2.LocalScript 
+coroutine.wrap(SSQQR_fake_script)()
+local function VXNNR_fake_script() -- Buy_2.LocalScript 
 	local script = Instance.new('LocalScript', Buy_2)
 
 	
@@ -818,8 +802,8 @@ local function BKJYDYS_fake_script() -- Buy_2.LocalScript
 		MarketplaceService:PromptGamePassPurchase(game.Players.LocalPlayer, GamepassID)
 	end)
 end
-coroutine.wrap(BKJYDYS_fake_script)()
-local function LDHFDPC_fake_script() -- OtherO.LocalScript 
+coroutine.wrap(VXNNR_fake_script)()
+local function DFBO_fake_script() -- OtherO.LocalScript 
 	local script = Instance.new('LocalScript', OtherO)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -832,8 +816,8 @@ local function LDHFDPC_fake_script() -- OtherO.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LDHFDPC_fake_script)()
-local function VERQU_fake_script() -- Toggle.LocalScript 
+coroutine.wrap(DFBO_fake_script)()
+local function EZOV_fake_script() -- Toggle.LocalScript 
 	local script = Instance.new('LocalScript', Toggle)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -844,4 +828,4 @@ local function VERQU_fake_script() -- Toggle.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VERQU_fake_script)()
+coroutine.wrap(EZOV_fake_script)()
