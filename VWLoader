@@ -965,6 +965,7 @@ Buy.TextColor3 = Color3.new(1, 1, 1)
 Buy.TextScaled = true
 Buy.TextSize = 20
 Buy.TextWrapped = true
+Buy.Visible = false
 
 UICorner_32.Parent = Buy
 
