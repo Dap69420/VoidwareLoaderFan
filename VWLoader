@@ -101,6 +101,7 @@ local UICorner_33 = Instance.new("UICorner")
 Script.Name = "Script"
 Script.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 Script.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Script.ResetOnSpawn = false
 
 Background.Name = "Background"
 Background.Parent = Script
