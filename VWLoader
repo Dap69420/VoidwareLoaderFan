@@ -1,287 +1,451 @@
 local Script = Instance.new("ScreenGui")
 local Background = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
-local Main = Instance.new("Frame")
+local B2 = Instance.new("Frame")
 local UICorner_2 = Instance.new("UICorner")
 local Title = Instance.new("TextLabel")
-local Old = Instance.new("Frame")
-local UICorner_3 = Instance.new("UICorner")
-local OldE = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
-local OldC = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
-local TitleOld = Instance.new("TextLabel")
-local Desc = Instance.new("TextLabel")
-local Rewrite = Instance.new("Frame")
-local UICorner_6 = Instance.new("UICorner")
-local ReC = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
-local ReE = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
-local TitleRewrite = Instance.new("TextLabel")
-local Desc_2 = Instance.new("TextLabel")
-local Rise = Instance.new("Frame")
-local UICorner_9 = Instance.new("UICorner")
-local RiseC = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
-local RiseE = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
-local TitleRise = Instance.new("TextLabel")
-local Desc_3 = Instance.new("TextLabel")
-local Packet = Instance.new("Frame")
-local UICorner_12 = Instance.new("UICorner")
-local PacketC = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
-local PacketE = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
-local TitlePacket = Instance.new("TextLabel")
-local Desc_4 = Instance.new("TextLabel")
-local Others = Instance.new("Frame")
-local UICorner_15 = Instance.new("UICorner")
-local Title_2 = Instance.new("TextLabel")
-local MetalESP = Instance.new("Frame")
-local UICorner_16 = Instance.new("UICorner")
-local Title_3 = Instance.new("TextLabel")
-local Desc_5 = Instance.new("TextLabel")
-local Execute = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
-local InfiniteYield = Instance.new("Frame")
-local UICorner_18 = Instance.new("UICorner")
-local Execute_2 = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
-local TitleRewrite_2 = Instance.new("TextLabel")
-local Desc_6 = Instance.new("TextLabel")
-local Dex = Instance.new("Frame")
-local UICorner_20 = Instance.new("UICorner")
-local TitleRise_2 = Instance.new("TextLabel")
-local Desc_7 = Instance.new("TextLabel")
-local Execute_3 = Instance.new("TextButton")
-local UICorner_21 = Instance.new("UICorner")
-local Soon = Instance.new("Frame")
-local UICorner_22 = Instance.new("UICorner")
-local Soon_2 = Instance.new("TextButton")
-local UICorner_23 = Instance.new("UICorner")
-local TitlePacket_2 = Instance.new("TextLabel")
-local Desc_8 = Instance.new("TextLabel")
-local OtherO = Instance.new("TextButton")
-local UICorner_24 = Instance.new("UICorner")
 local PrivateO = Instance.new("TextButton")
-local UICorner_25 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
 local Private = Instance.new("Frame")
-local UICorner_26 = Instance.new("UICorner")
-local Title_4 = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local Title_2 = Instance.new("TextLabel")
 local Permanent = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
 local ImageLabel = Instance.new("ImageLabel")
-local Title_5 = Instance.new("TextLabel")
+local Title_3 = Instance.new("TextLabel")
 local Current = Instance.new("Frame")
-local UICorner_28 = Instance.new("UICorner")
-local Title_6 = Instance.new("TextLabel")
-local Desc_9 = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local Title_4 = Instance.new("TextLabel")
+local Desc = Instance.new("TextLabel")
 local Boost = Instance.new("TextButton")
-local UICorner_29 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
 local ImageLabel_2 = Instance.new("ImageLabel")
-local Title_7 = Instance.new("TextLabel")
+local Title_5 = Instance.new("TextLabel")
 local CC = Instance.new("TextButton")
-local UICorner_30 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
 local ImageLabel_3 = Instance.new("ImageLabel")
-local Title_8 = Instance.new("TextLabel")
+local Title_6 = Instance.new("TextLabel")
 local Pay = Instance.new("TextButton")
-local UICorner_31 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
 local ImageLabel_4 = Instance.new("ImageLabel")
-local Title_9 = Instance.new("TextLabel")
+local Title_7 = Instance.new("TextLabel")
 local Description = Instance.new("TextLabel")
 local Buy = Instance.new("TextButton")
-local UICorner_32 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
+local Back = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local UIScale = Instance.new("UIScale")
+local Main = Instance.new("ScrollingFrame")
+local Rise = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local RiseC = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local RiseE = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local TitleRise = Instance.new("TextLabel")
+local Desc_2 = Instance.new("TextLabel")
+local Rewrite = Instance.new("Frame")
+local UICorner_15 = Instance.new("UICorner")
+local ReC = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local ReE = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local TitleRewrite = Instance.new("TextLabel")
+local Desc_3 = Instance.new("TextLabel")
+local Packet = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local PacketC = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local PacketE = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local TitlePacket = Instance.new("TextLabel")
+local Desc_4 = Instance.new("TextLabel")
+local Old = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local OldE = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local OldC = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local TitleOld = Instance.new("TextLabel")
+local Desc_5 = Instance.new("TextLabel")
+local UIGridLayout = Instance.new("UIGridLayout")
+local MetalESP = Instance.new("Frame")
+local UICorner_24 = Instance.new("UICorner")
+local Title_8 = Instance.new("TextLabel")
+local Desc_6 = Instance.new("TextLabel")
+local Execute = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local InfiniteYield = Instance.new("Frame")
+local UICorner_26 = Instance.new("UICorner")
+local Execute_2 = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local TitleRewrite_2 = Instance.new("TextLabel")
+local Desc_7 = Instance.new("TextLabel")
+local Dex = Instance.new("Frame")
+local UICorner_28 = Instance.new("UICorner")
+local TitleRise_2 = Instance.new("TextLabel")
+local Desc_8 = Instance.new("TextLabel")
+local Execute_3 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local Soon = Instance.new("Frame")
+local UICorner_30 = Instance.new("UICorner")
+local Soon_2 = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local TitlePacket_2 = Instance.new("TextLabel")
+local Desc_9 = Instance.new("TextLabel")
 local Toggle = Instance.new("ImageButton")
-local UICorner_33 = Instance.new("UICorner")
+local UICorner_32 = Instance.new("UICorner")
+local UIScale_2 = Instance.new("UIScale")
 
 -- Properties
 
 Script.Name = "Script"
 Script.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 Script.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-Script.ResetOnSpawn = false
 
 Background.Name = "Background"
 Background.Parent = Script
 Background.BackgroundColor3 = Color3.new(0, 0, 0)
 Background.BorderColor3 = Color3.new(0, 0, 0)
 Background.BorderSizePixel = 0
-Background.Position = UDim2.new(0.209402189, 0, 0.130435765, 0)
-Background.Size = UDim2.new(0.578284144, 0, 0.707423568, 0)
+Background.Position = UDim2.new(0.202187255, 0, 0.109793566, 0)
+Background.Size = UDim2.new(0.591271102, 0, 0.707423568, 0)
 Background.Visible = false
 
 UICorner.Parent = Background
 
-Main.Name = "Main"
-Main.Parent = Background
-Main.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
-Main.BorderColor3 = Color3.new(0, 0, 0)
-Main.BorderSizePixel = 0
-Main.Position = UDim2.new(0.0100334445, 0, 0.0158730168, 0)
-Main.Size = UDim2.new(0.978260875, 0, 0.96825397, 0)
+B2.Name = "B2"
+B2.Parent = Background
+B2.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+B2.BorderColor3 = Color3.new(0, 0, 0)
+B2.BorderSizePixel = 0
+B2.Position = UDim2.new(0.0100334445, 0, 0.0158730168, 0)
+B2.Size = UDim2.new(0.978260875, 0, 0.96825397, 0)
 
-UICorner_2.Parent = Main
+UICorner_2.Parent = B2
 
 Title.Name = "Title"
-Title.Parent = Main
+Title.Parent = B2
 Title.BackgroundColor3 = Color3.new(1, 1, 1)
 Title.BackgroundTransparency = 1
 Title.BorderColor3 = Color3.new(0, 0, 0)
 Title.BorderSizePixel = 0
-Title.Position = UDim2.new(0.340325147, 0, 0.0196832754, 0)
+Title.Position = UDim2.new(0.337830424, 0, -0.000407457032, 0)
 Title.Size = UDim2.new(0.316239327, 0, 0.0765027329, 0)
 Title.Font = Enum.Font.FredokaOne
-Title.Text = "Voidware Loader"
+Title.Text = "Scripts"
 Title.TextColor3 = Color3.new(1, 1, 1)
 Title.TextScaled = true
 Title.TextSize = 30
 Title.TextWrapped = true
 
-Old.Name = "Old"
-Old.Parent = Main
-Old.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
-Old.BorderColor3 = Color3.new(0, 0, 0)
-Old.BorderSizePixel = 0
-Old.Position = UDim2.new(0.130137771, 0, 0.128429323, 0)
-Old.Size = UDim2.new(0.312820524, 0, 0.300546438, 0)
+PrivateO.Name = "PrivateO"
+PrivateO.Parent = Background
+PrivateO.BackgroundColor3 = Color3.new(0.615686, 0, 1)
+PrivateO.BorderColor3 = Color3.new(0, 0, 0)
+PrivateO.BorderSizePixel = 0
+PrivateO.Position = UDim2.new(0.391000003, 0, 0.922968626, 0)
+PrivateO.Size = UDim2.new(0.210255191, 0, 0.0601052828, 0)
+PrivateO.ZIndex = 2
+PrivateO.Font = Enum.Font.FredokaOne
+PrivateO.Text = "Voidware Private"
+PrivateO.TextColor3 = Color3.new(1, 1, 1)
+PrivateO.TextScaled = true
+PrivateO.TextSize = 20
+PrivateO.TextWrapped = true
 
-UICorner_3.Parent = Old
+UICorner_3.Parent = PrivateO
 
-OldE.Name = "OldE"
-OldE.Parent = Old
-OldE.BackgroundColor3 = Color3.new(0.14902, 1, 0)
-OldE.BorderColor3 = Color3.new(0, 0, 0)
-OldE.BorderSizePixel = 0
-OldE.Position = UDim2.new(0.058527045, 0, 0.61669755, 0)
-OldE.Size = UDim2.new(0.409836054, 0, 0.290909082, 0)
-OldE.Font = Enum.Font.FredokaOne
-OldE.Text = "Execute"
-OldE.TextColor3 = Color3.new(1, 1, 1)
-OldE.TextScaled = true
-OldE.TextSize = 20
-OldE.TextWrapped = true
+Private.Name = "Private"
+Private.Parent = Background
+Private.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+Private.BorderColor3 = Color3.new(0, 0, 0)
+Private.BorderSizePixel = 0
+Private.Position = UDim2.new(0.0100334445, 0, 0.0158730168, 0)
+Private.Size = UDim2.new(0.978260875, 0, 0.96825397, 0)
+Private.Visible = false
+Private.ZIndex = 2
 
-UICorner_4.Parent = OldE
+UICorner_4.Parent = Private
 
-OldC.Name = "OldC"
-OldC.Parent = Old
-OldC.BackgroundColor3 = Color3.new(0.337255, 0.337255, 0.337255)
-OldC.BorderColor3 = Color3.new(0, 0, 0)
-OldC.BorderSizePixel = 0
-OldC.Position = UDim2.new(0.544865847, 0, 0.61669755, 0)
-OldC.Size = UDim2.new(0.393442631, 0, 0.290909082, 0)
-OldC.Font = Enum.Font.FredokaOne
-OldC.Text = "Soon!"
-OldC.TextColor3 = Color3.new(1, 1, 1)
-OldC.TextScaled = true
-OldC.TextSize = 20
-OldC.TextWrapped = true
+Title_2.Name = "Title"
+Title_2.Parent = Private
+Title_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Title_2.BackgroundTransparency = 1
+Title_2.BorderColor3 = Color3.new(0, 0, 0)
+Title_2.BorderSizePixel = 0
+Title_2.Position = UDim2.new(0.340325147, 0, 0.0196832754, 0)
+Title_2.Size = UDim2.new(0.316239327, 0, 0.0765027329, 0)
+Title_2.Font = Enum.Font.FredokaOne
+Title_2.Text = "Voidware Private"
+Title_2.TextColor3 = Color3.new(1, 1, 1)
+Title_2.TextScaled = true
+Title_2.TextSize = 30
+Title_2.TextWrapped = true
 
-UICorner_5.Parent = OldC
+Permanent.Name = "Permanent"
+Permanent.Parent = Private
+Permanent.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
+Permanent.BorderColor3 = Color3.new(0, 0, 0)
+Permanent.BorderSizePixel = 0
+Permanent.Position = UDim2.new(0.0450308807, 0, 0.183650956, 0)
+Permanent.Size = UDim2.new(0.177975491, 0, 0.267469823, 0)
+Permanent.Font = Enum.Font.FredokaOne
+Permanent.Text = " "
+Permanent.TextColor3 = Color3.new(1, 1, 1)
+Permanent.TextScaled = true
+Permanent.TextSize = 20
+Permanent.TextWrapped = true
 
-TitleOld.Name = "TitleOld"
-TitleOld.Parent = Old
-TitleOld.BackgroundColor3 = Color3.new(1, 1, 1)
-TitleOld.BackgroundTransparency = 1
-TitleOld.BorderColor3 = Color3.new(0, 0, 0)
-TitleOld.BorderSizePixel = 0
-TitleOld.Position = UDim2.new(-0.00393710099, 0, 0.0651378259, 0)
-TitleOld.Size = UDim2.new(1.01092899, 0, 0.25454545, 0)
-TitleOld.Font = Enum.Font.FredokaOne
-TitleOld.Text = "Voidware Vape Old"
-TitleOld.TextColor3 = Color3.new(0, 0.619608, 0.341176)
-TitleOld.TextScaled = true
-TitleOld.TextSize = 20
-TitleOld.TextWrapped = true
+UICorner_5.Parent = Permanent
+
+ImageLabel.Parent = Permanent
+ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageLabel.BackgroundTransparency = 1
+ImageLabel.BorderColor3 = Color3.new(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.176940277, 0, 0.0125193894, 0)
+ImageLabel.Size = UDim2.new(0.644568145, 0, 0.663507342, 0)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=13729415782"
+
+Title_3.Name = "Title"
+Title_3.Parent = Permanent
+Title_3.BackgroundColor3 = Color3.new(1, 1, 1)
+Title_3.BackgroundTransparency = 1
+Title_3.BorderColor3 = Color3.new(0, 0, 0)
+Title_3.BorderSizePixel = 0
+Title_3.Position = UDim2.new(-0.000916614139, 0, 0.987562001, 0)
+Title_3.Size = UDim2.new(1.00091636, 0, -0.315210432, 0)
+Title_3.Font = Enum.Font.FredokaOne
+Title_3.Text = "VW INF"
+Title_3.TextColor3 = Color3.new(1, 1, 1)
+Title_3.TextScaled = true
+Title_3.TextSize = 30
+Title_3.TextWrapped = true
+
+Current.Name = "Current"
+Current.Parent = Private
+Current.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
+Current.BorderColor3 = Color3.new(0, 0, 0)
+Current.BorderSizePixel = 0
+Current.Position = UDim2.new(0.583620071, 0, 0.0961860195, 0)
+Current.Size = UDim2.new(0.404674232, 0, 0.682424843, 0)
+
+UICorner_6.Parent = Current
+
+Title_4.Name = "Title"
+Title_4.Parent = Current
+Title_4.BackgroundColor3 = Color3.new(1, 1, 1)
+Title_4.BackgroundTransparency = 1
+Title_4.BorderColor3 = Color3.new(0, 0, 0)
+Title_4.BorderSizePixel = 0
+Title_4.Position = UDim2.new(0, 0, 0.0196833052, 0)
+Title_4.Size = UDim2.new(0.999998987, 0, 0.113391481, 0)
+Title_4.Font = Enum.Font.FredokaOne
+Title_4.Text = " "
+Title_4.TextColor3 = Color3.new(0.533333, 0, 1)
+Title_4.TextScaled = true
+Title_4.TextSize = 30
+Title_4.TextWrapped = true
 
 Desc.Name = "Desc"
-Desc.Parent = Old
+Desc.Parent = Current
 Desc.BackgroundColor3 = Color3.new(1, 1, 1)
 Desc.BackgroundTransparency = 1
 Desc.BorderColor3 = Color3.new(0, 0, 0)
 Desc.BorderSizePixel = 0
-Desc.Position = UDim2.new(-0.00393710099, 0, 0.319683284, 0)
-Desc.Size = UDim2.new(1.01092899, 0, 0.209090903, 0)
+Desc.Position = UDim2.new(0, 0, 0.161977723, 0)
+Desc.Size = UDim2.new(0.999998987, 0, 0.838022411, 0)
 Desc.Font = Enum.Font.FredokaOne
-Desc.Text = "First ever version of Voidware!"
+Desc.Text = " "
 Desc.TextColor3 = Color3.new(1, 1, 1)
 Desc.TextScaled = true
-Desc.TextSize = 13
+Desc.TextSize = 30
 Desc.TextWrapped = true
 
-Rewrite.Name = "Rewrite"
-Rewrite.Parent = Main
-Rewrite.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
-Rewrite.BorderColor3 = Color3.new(0, 0, 0)
-Rewrite.BorderSizePixel = 0
-Rewrite.Position = UDim2.new(0.550623596, 0, 0.128429323, 0)
-Rewrite.Size = UDim2.new(0.312820524, 0, 0.300546438, 0)
+Boost.Name = "Boost"
+Boost.Parent = Private
+Boost.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
+Boost.BorderColor3 = Color3.new(0, 0, 0)
+Boost.BorderSizePixel = 0
+Boost.Position = UDim2.new(0.299208492, 0, 0.183650956, 0)
+Boost.Size = UDim2.new(0.177975491, 0, 0.267469823, 0)
+Boost.Font = Enum.Font.FredokaOne
+Boost.Text = " "
+Boost.TextColor3 = Color3.new(1, 1, 1)
+Boost.TextScaled = true
+Boost.TextSize = 20
+Boost.TextWrapped = true
 
-UICorner_6.Parent = Rewrite
+UICorner_7.Parent = Boost
 
-ReC.Name = "ReC"
-ReC.Parent = Rewrite
-ReC.BackgroundColor3 = Color3.new(0.337255, 0.337255, 0.337255)
-ReC.BorderColor3 = Color3.new(0, 0, 0)
-ReC.BorderSizePixel = 0
-ReC.Position = UDim2.new(0.544865847, 0, 0.61669755, 0)
-ReC.Size = UDim2.new(0.393442631, 0, 0.290909082, 0)
-ReC.Font = Enum.Font.FredokaOne
-ReC.Text = "Configs"
-ReC.TextColor3 = Color3.new(1, 1, 1)
-ReC.TextScaled = true
-ReC.TextSize = 20
-ReC.TextWrapped = true
+ImageLabel_2.Parent = Boost
+ImageLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageLabel_2.BackgroundTransparency = 1
+ImageLabel_2.BorderColor3 = Color3.new(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.176940277, 0, 0.0125193894, 0)
+ImageLabel_2.Size = UDim2.new(0.644568145, 0, 0.663507342, 0)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=88766266196353"
 
-UICorner_7.Parent = ReC
+Title_5.Name = "Title"
+Title_5.Parent = Boost
+Title_5.BackgroundColor3 = Color3.new(1, 1, 1)
+Title_5.BackgroundTransparency = 1
+Title_5.BorderColor3 = Color3.new(0, 0, 0)
+Title_5.BorderSizePixel = 0
+Title_5.Position = UDim2.new(-0.000916614139, 0, 0.987562001, 0)
+Title_5.Size = UDim2.new(1.00091636, 0, -0.315210432, 0)
+Title_5.Font = Enum.Font.FredokaOne
+Title_5.Text = "VW Premium"
+Title_5.TextColor3 = Color3.new(1, 1, 1)
+Title_5.TextScaled = true
+Title_5.TextSize = 30
+Title_5.TextWrapped = true
 
-ReE.Name = "ReE"
-ReE.Parent = Rewrite
-ReE.BackgroundColor3 = Color3.new(0.14902, 1, 0)
-ReE.BorderColor3 = Color3.new(0, 0, 0)
-ReE.BorderSizePixel = 0
-ReE.Position = UDim2.new(0.058527045, 0, 0.61669755, 0)
-ReE.Size = UDim2.new(0.409836054, 0, 0.290909082, 0)
-ReE.Font = Enum.Font.FredokaOne
-ReE.Text = "Execute"
-ReE.TextColor3 = Color3.new(1, 1, 1)
-ReE.TextScaled = true
-ReE.TextSize = 20
-ReE.TextWrapped = true
+CC.Name = "CC"
+CC.Parent = Private
+CC.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
+CC.BorderColor3 = Color3.new(0, 0, 0)
+CC.BorderSizePixel = 0
+CC.Position = UDim2.new(0.299208492, 0, 0.508451283, 0)
+CC.Size = UDim2.new(0.177975491, 0, 0.267469823, 0)
+CC.Font = Enum.Font.FredokaOne
+CC.Text = " "
+CC.TextColor3 = Color3.new(1, 1, 1)
+CC.TextScaled = true
+CC.TextSize = 20
+CC.TextWrapped = true
 
-UICorner_8.Parent = ReE
+UICorner_8.Parent = CC
 
-TitleRewrite.Name = "TitleRewrite"
-TitleRewrite.Parent = Rewrite
-TitleRewrite.BackgroundColor3 = Color3.new(1, 1, 1)
-TitleRewrite.BackgroundTransparency = 1
-TitleRewrite.BorderColor3 = Color3.new(0, 0, 0)
-TitleRewrite.BorderSizePixel = 0
-TitleRewrite.Position = UDim2.new(0, 0, 0.0651378259, 0)
-TitleRewrite.Size = UDim2.new(1.00546443, 0, 0.25454545, 0)
-TitleRewrite.Font = Enum.Font.FredokaOne
-TitleRewrite.Text = "Voidware Vape Rewrite"
-TitleRewrite.TextColor3 = Color3.new(0, 0.101961, 1)
-TitleRewrite.TextScaled = true
-TitleRewrite.TextSize = 18
-TitleRewrite.TextWrapped = true
+ImageLabel_3.Parent = CC
+ImageLabel_3.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageLabel_3.BackgroundTransparency = 1
+ImageLabel_3.BorderColor3 = Color3.new(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0.176940277, 0, 0.0125193894, 0)
+ImageLabel_3.Size = UDim2.new(0.644568145, 0, 0.663507342, 0)
+ImageLabel_3.Image = "http://www.roblox.com/asset/?id=86797609152006"
 
-Desc_2.Name = "Desc"
-Desc_2.Parent = Rewrite
-Desc_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Desc_2.BackgroundTransparency = 1
-Desc_2.BorderColor3 = Color3.new(0, 0, 0)
-Desc_2.BorderSizePixel = 0
-Desc_2.Position = UDim2.new(-0.0039372677, 0, 0.319683284, 0)
-Desc_2.Size = UDim2.new(1.01092899, 0, 0.209090903, 0)
-Desc_2.Font = Enum.Font.FredokaOne
-Desc_2.Text = "Rewrite of OG Voidware script!"
-Desc_2.TextColor3 = Color3.new(1, 1, 1)
-Desc_2.TextScaled = true
-Desc_2.TextSize = 13
-Desc_2.TextWrapped = true
+Title_6.Name = "Title"
+Title_6.Parent = CC
+Title_6.BackgroundColor3 = Color3.new(1, 1, 1)
+Title_6.BackgroundTransparency = 1
+Title_6.BorderColor3 = Color3.new(0, 0, 0)
+Title_6.BorderSizePixel = 0
+Title_6.Position = UDim2.new(-0.000916614139, 0, 0.987562001, 0)
+Title_6.Size = UDim2.new(1.00091636, 0, -0.315210432, 0)
+Title_6.Font = Enum.Font.FredokaOne
+Title_6.Text = "Content Creator"
+Title_6.TextColor3 = Color3.new(1, 1, 1)
+Title_6.TextScaled = true
+Title_6.TextSize = 30
+Title_6.TextWrapped = true
+
+Pay.Name = "Pay"
+Pay.Parent = Private
+Pay.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
+Pay.BorderColor3 = Color3.new(0, 0, 0)
+Pay.BorderSizePixel = 0
+Pay.Position = UDim2.new(0.0450308807, 0, 0.508451283, 0)
+Pay.Size = UDim2.new(0.177975491, 0, 0.267469823, 0)
+Pay.Font = Enum.Font.FredokaOne
+Pay.Text = " "
+Pay.TextColor3 = Color3.new(1, 1, 1)
+Pay.TextScaled = true
+Pay.TextSize = 20
+Pay.TextWrapped = true
+
+UICorner_9.Parent = Pay
+
+ImageLabel_4.Parent = Pay
+ImageLabel_4.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageLabel_4.BackgroundTransparency = 1
+ImageLabel_4.BorderColor3 = Color3.new(0, 0, 0)
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0.126385912, 0, 0.0125193894, 0)
+ImageLabel_4.Size = UDim2.new(0.733038366, 0, 0.738621473, 0)
+ImageLabel_4.Image = "http://www.roblox.com/asset/?id=15178979114"
+
+Title_7.Name = "Title"
+Title_7.Parent = Pay
+Title_7.BackgroundColor3 = Color3.new(1, 1, 1)
+Title_7.BackgroundTransparency = 1
+Title_7.BorderColor3 = Color3.new(0, 0, 0)
+Title_7.BorderSizePixel = 0
+Title_7.Position = UDim2.new(-0.000916614139, 0, 0.987562001, 0)
+Title_7.Size = UDim2.new(1.00091636, 0, -0.315210432, 0)
+Title_7.Font = Enum.Font.FredokaOne
+Title_7.Text = "Paypal"
+Title_7.TextColor3 = Color3.new(1, 1, 1)
+Title_7.TextScaled = true
+Title_7.TextSize = 30
+Title_7.TextWrapped = true
+
+Description.Name = "Description"
+Description.Parent = Private
+Description.BackgroundColor3 = Color3.new(1, 1, 1)
+Description.BackgroundTransparency = 1
+Description.BorderColor3 = Color3.new(0, 0, 0)
+Description.BorderSizePixel = 0
+Description.Position = UDim2.new(0.0231654402, 0, 0.809919059, 0)
+Description.Size = UDim2.new(0.316239327, 0, 0.0765027329, 0)
+Description.Font = Enum.Font.FredokaOne
+Description.Text = "More Options in discord server!"
+Description.TextColor3 = Color3.new(1, 1, 1)
+Description.TextScaled = true
+Description.TextSize = 30
+Description.TextWrapped = true
+
+Buy.Name = "Buy"
+Buy.Parent = Private
+Buy.BackgroundColor3 = Color3.new(0.54902, 0, 1)
+Buy.BorderColor3 = Color3.new(0, 0, 0)
+Buy.BorderSizePixel = 0
+Buy.Position = UDim2.new(0.77017045, 0, 0.923442602, 0)
+Buy.Size = UDim2.new(0.21663779, 0, 0.0616318993, 0)
+Buy.Visible = false
+Buy.ZIndex = 2
+Buy.Font = Enum.Font.FredokaOne
+Buy.Text = "Buy Voidware INF 💰"
+Buy.TextColor3 = Color3.new(1, 1, 1)
+Buy.TextScaled = true
+Buy.TextSize = 20
+Buy.TextWrapped = true
+
+UICorner_10.Parent = Buy
+
+Back.Name = "Back"
+Back.Parent = Private
+Back.BackgroundColor3 = Color3.new(0.615686, 0, 1)
+Back.BackgroundTransparency = 1
+Back.BorderColor3 = Color3.new(0, 0, 0)
+Back.BorderSizePixel = 0
+Back.Position = UDim2.new(-0.000674313924, 0, -0.00120542094, 0)
+Back.Size = UDim2.new(0.0875200406, 0, 0.137162417, 0)
+Back.ZIndex = 2
+Back.Font = Enum.Font.FredokaOne
+Back.Text = "<"
+Back.TextColor3 = Color3.new(1, 1, 1)
+Back.TextScaled = true
+Back.TextSize = 20
+Back.TextWrapped = true
+
+UICorner_11.Parent = Back
+
+UIScale.Parent = Background
+
+Main.Name = "Main"
+Main.Parent = Background
+Main.Active = true
+Main.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+Main.BackgroundTransparency = 1
+Main.BorderColor3 = Color3.new(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.00999995042, 0, 0.109005466, 0)
+Main.Size = UDim2.new(0.978000045, 0, 0.800994456, 0)
+Main.ScrollBarThickness = 0
 
 Rise.Name = "Rise"
 Rise.Parent = Main
@@ -291,7 +455,7 @@ Rise.BorderSizePixel = 0
 Rise.Position = UDim2.new(0.130137771, 0, 0.478064388, 0)
 Rise.Size = UDim2.new(0.312820524, 0, 0.300546438, 0)
 
-UICorner_9.Parent = Rise
+UICorner_12.Parent = Rise
 
 RiseC.Name = "RiseC"
 RiseC.Parent = Rise
@@ -307,7 +471,7 @@ RiseC.TextScaled = true
 RiseC.TextSize = 20
 RiseC.TextWrapped = true
 
-UICorner_10.Parent = RiseC
+UICorner_13.Parent = RiseC
 
 RiseE.Name = "RiseE"
 RiseE.Parent = Rise
@@ -323,7 +487,7 @@ RiseE.TextScaled = true
 RiseE.TextSize = 20
 RiseE.TextWrapped = true
 
-UICorner_11.Parent = RiseE
+UICorner_14.Parent = RiseE
 
 TitleRise.Name = "TitleRise"
 TitleRise.Parent = Rise
@@ -340,8 +504,80 @@ TitleRise.TextScaled = true
 TitleRise.TextSize = 20
 TitleRise.TextWrapped = true
 
+Desc_2.Name = "Desc"
+Desc_2.Parent = Rise
+Desc_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Desc_2.BackgroundTransparency = 1
+Desc_2.BorderColor3 = Color3.new(0, 0, 0)
+Desc_2.BorderSizePixel = 0
+Desc_2.Position = UDim2.new(-0.0039372677, 0, 0.319683284, 0)
+Desc_2.Size = UDim2.new(1.01092899, 0, 0.209090903, 0)
+Desc_2.Font = Enum.Font.FredokaOne
+Desc_2.Text = "Special Script for Voidware Private users only!"
+Desc_2.TextColor3 = Color3.new(1, 1, 1)
+Desc_2.TextScaled = true
+Desc_2.TextSize = 13
+Desc_2.TextWrapped = true
+
+Rewrite.Name = "Rewrite"
+Rewrite.Parent = Main
+Rewrite.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
+Rewrite.BorderColor3 = Color3.new(0, 0, 0)
+Rewrite.BorderSizePixel = 0
+Rewrite.Position = UDim2.new(0.550623596, 0, 0.128429323, 0)
+Rewrite.Size = UDim2.new(0.312820524, 0, 0.300546438, 0)
+
+UICorner_15.Parent = Rewrite
+
+ReC.Name = "ReC"
+ReC.Parent = Rewrite
+ReC.BackgroundColor3 = Color3.new(0.337255, 0.337255, 0.337255)
+ReC.BorderColor3 = Color3.new(0, 0, 0)
+ReC.BorderSizePixel = 0
+ReC.Position = UDim2.new(0.544865847, 0, 0.61669755, 0)
+ReC.Size = UDim2.new(0.393442631, 0, 0.290909082, 0)
+ReC.Font = Enum.Font.FredokaOne
+ReC.Text = "Configs"
+ReC.TextColor3 = Color3.new(1, 1, 1)
+ReC.TextScaled = true
+ReC.TextSize = 20
+ReC.TextWrapped = true
+
+UICorner_16.Parent = ReC
+
+ReE.Name = "ReE"
+ReE.Parent = Rewrite
+ReE.BackgroundColor3 = Color3.new(0.14902, 1, 0)
+ReE.BorderColor3 = Color3.new(0, 0, 0)
+ReE.BorderSizePixel = 0
+ReE.Position = UDim2.new(0.058527045, 0, 0.61669755, 0)
+ReE.Size = UDim2.new(0.409836054, 0, 0.290909082, 0)
+ReE.Font = Enum.Font.FredokaOne
+ReE.Text = "Execute"
+ReE.TextColor3 = Color3.new(1, 1, 1)
+ReE.TextScaled = true
+ReE.TextSize = 20
+ReE.TextWrapped = true
+
+UICorner_17.Parent = ReE
+
+TitleRewrite.Name = "TitleRewrite"
+TitleRewrite.Parent = Rewrite
+TitleRewrite.BackgroundColor3 = Color3.new(1, 1, 1)
+TitleRewrite.BackgroundTransparency = 1
+TitleRewrite.BorderColor3 = Color3.new(0, 0, 0)
+TitleRewrite.BorderSizePixel = 0
+TitleRewrite.Position = UDim2.new(0, 0, 0.0651378259, 0)
+TitleRewrite.Size = UDim2.new(1.00546443, 0, 0.25454545, 0)
+TitleRewrite.Font = Enum.Font.FredokaOne
+TitleRewrite.Text = "Voidware Vape Rewrite"
+TitleRewrite.TextColor3 = Color3.new(0, 0.101961, 1)
+TitleRewrite.TextScaled = true
+TitleRewrite.TextSize = 18
+TitleRewrite.TextWrapped = true
+
 Desc_3.Name = "Desc"
-Desc_3.Parent = Rise
+Desc_3.Parent = Rewrite
 Desc_3.BackgroundColor3 = Color3.new(1, 1, 1)
 Desc_3.BackgroundTransparency = 1
 Desc_3.BorderColor3 = Color3.new(0, 0, 0)
@@ -349,7 +585,7 @@ Desc_3.BorderSizePixel = 0
 Desc_3.Position = UDim2.new(-0.0039372677, 0, 0.319683284, 0)
 Desc_3.Size = UDim2.new(1.01092899, 0, 0.209090903, 0)
 Desc_3.Font = Enum.Font.FredokaOne
-Desc_3.Text = "Special Script for Voidware Private users only!"
+Desc_3.Text = "Rewrite of OG Voidware script!"
 Desc_3.TextColor3 = Color3.new(1, 1, 1)
 Desc_3.TextScaled = true
 Desc_3.TextSize = 13
@@ -363,7 +599,7 @@ Packet.BorderSizePixel = 0
 Packet.Position = UDim2.new(0.550623596, 0, 0.477950186, 0)
 Packet.Size = UDim2.new(0.312820524, 0, 0.300546438, 0)
 
-UICorner_12.Parent = Packet
+UICorner_18.Parent = Packet
 
 PacketC.Name = "PacketC"
 PacketC.Parent = Packet
@@ -379,7 +615,7 @@ PacketC.TextScaled = true
 PacketC.TextSize = 20
 PacketC.TextWrapped = true
 
-UICorner_13.Parent = PacketC
+UICorner_19.Parent = PacketC
 
 PacketE.Name = "PacketE"
 PacketE.Parent = Packet
@@ -395,7 +631,7 @@ PacketE.TextScaled = true
 PacketE.TextSize = 20
 PacketE.TextWrapped = true
 
-UICorner_14.Parent = PacketE
+UICorner_20.Parent = PacketE
 
 TitlePacket.Name = "TitlePacket"
 TitlePacket.Parent = Packet
@@ -427,59 +663,65 @@ Desc_4.TextScaled = true
 Desc_4.TextSize = 13
 Desc_4.TextWrapped = true
 
-Others.Name = "Others"
-Others.Parent = Background
-Others.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
-Others.BorderColor3 = Color3.new(0, 0, 0)
-Others.BorderSizePixel = 0
-Others.Position = UDim2.new(0.0100334445, 0, 0.0158730168, 0)
-Others.Size = UDim2.new(0.978260875, 0, 0.96825397, 0)
-Others.Visible = false
+Old.Name = "Old"
+Old.Parent = Main
+Old.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
+Old.BorderColor3 = Color3.new(0, 0, 0)
+Old.BorderSizePixel = 0
+Old.Position = UDim2.new(0.130137771, 0, 0.128429323, 0)
+Old.Size = UDim2.new(0.312820524, 0, 0.300546438, 0)
 
-UICorner_15.Parent = Others
+UICorner_21.Parent = Old
 
-Title_2.Name = "Title"
-Title_2.Parent = Others
-Title_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Title_2.BackgroundTransparency = 1
-Title_2.BorderColor3 = Color3.new(0, 0, 0)
-Title_2.BorderSizePixel = 0
-Title_2.Position = UDim2.new(0.340325147, 0, 0.0196832754, 0)
-Title_2.Size = UDim2.new(0.316239327, 0, 0.0765027329, 0)
-Title_2.Font = Enum.Font.FredokaOne
-Title_2.Text = "Other Scripts 📜"
-Title_2.TextColor3 = Color3.new(1, 1, 1)
-Title_2.TextScaled = true
-Title_2.TextSize = 30
-Title_2.TextWrapped = true
+OldE.Name = "OldE"
+OldE.Parent = Old
+OldE.BackgroundColor3 = Color3.new(0.14902, 1, 0)
+OldE.BorderColor3 = Color3.new(0, 0, 0)
+OldE.BorderSizePixel = 0
+OldE.Position = UDim2.new(0.058527045, 0, 0.61669755, 0)
+OldE.Size = UDim2.new(0.409836054, 0, 0.290909082, 0)
+OldE.Font = Enum.Font.FredokaOne
+OldE.Text = "Execute"
+OldE.TextColor3 = Color3.new(1, 1, 1)
+OldE.TextScaled = true
+OldE.TextSize = 20
+OldE.TextWrapped = true
 
-MetalESP.Name = "MetalESP"
-MetalESP.Parent = Others
-MetalESP.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
-MetalESP.BorderColor3 = Color3.new(0, 0, 0)
-MetalESP.BorderSizePixel = 0
-MetalESP.Position = UDim2.new(0.130137771, 0, 0.128429323, 0)
-MetalESP.Size = UDim2.new(0.312820524, 0, 0.300546438, 0)
+UICorner_22.Parent = OldE
 
-UICorner_16.Parent = MetalESP
+OldC.Name = "OldC"
+OldC.Parent = Old
+OldC.BackgroundColor3 = Color3.new(0.337255, 0.337255, 0.337255)
+OldC.BorderColor3 = Color3.new(0, 0, 0)
+OldC.BorderSizePixel = 0
+OldC.Position = UDim2.new(0.544865847, 0, 0.61669755, 0)
+OldC.Size = UDim2.new(0.393442631, 0, 0.290909082, 0)
+OldC.Font = Enum.Font.FredokaOne
+OldC.Text = "Soon!"
+OldC.TextColor3 = Color3.new(1, 1, 1)
+OldC.TextScaled = true
+OldC.TextSize = 20
+OldC.TextWrapped = true
 
-Title_3.Name = "Title"
-Title_3.Parent = MetalESP
-Title_3.BackgroundColor3 = Color3.new(1, 1, 1)
-Title_3.BackgroundTransparency = 1
-Title_3.BorderColor3 = Color3.new(0, 0, 0)
-Title_3.BorderSizePixel = 0
-Title_3.Position = UDim2.new(-0.00393710099, 0, 0.0651378259, 0)
-Title_3.Size = UDim2.new(1.01092899, 0, 0.25454545, 0)
-Title_3.Font = Enum.Font.FredokaOne
-Title_3.Text = "Metal ESP"
-Title_3.TextColor3 = Color3.new(0, 0.619608, 0.341176)
-Title_3.TextScaled = true
-Title_3.TextSize = 20
-Title_3.TextWrapped = true
+UICorner_23.Parent = OldC
+
+TitleOld.Name = "TitleOld"
+TitleOld.Parent = Old
+TitleOld.BackgroundColor3 = Color3.new(1, 1, 1)
+TitleOld.BackgroundTransparency = 1
+TitleOld.BorderColor3 = Color3.new(0, 0, 0)
+TitleOld.BorderSizePixel = 0
+TitleOld.Position = UDim2.new(-0.00393710099, 0, 0.0651378259, 0)
+TitleOld.Size = UDim2.new(1.01092899, 0, 0.25454545, 0)
+TitleOld.Font = Enum.Font.FredokaOne
+TitleOld.Text = "Voidware Vape Old"
+TitleOld.TextColor3 = Color3.new(0, 0.619608, 0.341176)
+TitleOld.TextScaled = true
+TitleOld.TextSize = 20
+TitleOld.TextWrapped = true
 
 Desc_5.Name = "Desc"
-Desc_5.Parent = MetalESP
+Desc_5.Parent = Old
 Desc_5.BackgroundColor3 = Color3.new(1, 1, 1)
 Desc_5.BackgroundTransparency = 1
 Desc_5.BorderColor3 = Color3.new(0, 0, 0)
@@ -487,11 +729,56 @@ Desc_5.BorderSizePixel = 0
 Desc_5.Position = UDim2.new(-0.00393710099, 0, 0.319683284, 0)
 Desc_5.Size = UDim2.new(1.01092899, 0, 0.209090903, 0)
 Desc_5.Font = Enum.Font.FredokaOne
-Desc_5.Text = "Works with Metal Detector, Star Collector Stella and Eldertree!"
+Desc_5.Text = "First ever version of Voidware!"
 Desc_5.TextColor3 = Color3.new(1, 1, 1)
 Desc_5.TextScaled = true
 Desc_5.TextSize = 13
 Desc_5.TextWrapped = true
+
+UIGridLayout.Parent = Main
+UIGridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellSize = UDim2.new(0, 197, 0, 100)
+
+MetalESP.Name = "MetalESP"
+MetalESP.Parent = Main
+MetalESP.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
+MetalESP.BorderColor3 = Color3.new(0, 0, 0)
+MetalESP.BorderSizePixel = 0
+MetalESP.Position = UDim2.new(0.130137771, 0, 0.128429323, 0)
+MetalESP.Size = UDim2.new(0.312820524, 0, 0.300546438, 0)
+
+UICorner_24.Parent = MetalESP
+
+Title_8.Name = "Title"
+Title_8.Parent = MetalESP
+Title_8.BackgroundColor3 = Color3.new(1, 1, 1)
+Title_8.BackgroundTransparency = 1
+Title_8.BorderColor3 = Color3.new(0, 0, 0)
+Title_8.BorderSizePixel = 0
+Title_8.Position = UDim2.new(-0.00393710099, 0, 0.0651378259, 0)
+Title_8.Size = UDim2.new(1.01092899, 0, 0.25454545, 0)
+Title_8.Font = Enum.Font.FredokaOne
+Title_8.Text = "Metal ESP"
+Title_8.TextColor3 = Color3.new(0, 0.619608, 0.341176)
+Title_8.TextScaled = true
+Title_8.TextSize = 20
+Title_8.TextWrapped = true
+
+Desc_6.Name = "Desc"
+Desc_6.Parent = MetalESP
+Desc_6.BackgroundColor3 = Color3.new(1, 1, 1)
+Desc_6.BackgroundTransparency = 1
+Desc_6.BorderColor3 = Color3.new(0, 0, 0)
+Desc_6.BorderSizePixel = 0
+Desc_6.Position = UDim2.new(-0.00393710099, 0, 0.319683284, 0)
+Desc_6.Size = UDim2.new(1.01092899, 0, 0.209090903, 0)
+Desc_6.Font = Enum.Font.FredokaOne
+Desc_6.Text = "Works with Metal Detector, Star Collector Stella, Alchemist and Eldertree!"
+Desc_6.TextColor3 = Color3.new(1, 1, 1)
+Desc_6.TextScaled = true
+Desc_6.TextSize = 13
+Desc_6.TextWrapped = true
 
 Execute.Name = "Execute"
 Execute.Parent = MetalESP
@@ -507,17 +794,17 @@ Execute.TextScaled = true
 Execute.TextSize = 20
 Execute.TextWrapped = true
 
-UICorner_17.Parent = Execute
+UICorner_25.Parent = Execute
 
 InfiniteYield.Name = "Infinite Yield"
-InfiniteYield.Parent = Others
+InfiniteYield.Parent = Main
 InfiniteYield.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
 InfiniteYield.BorderColor3 = Color3.new(0, 0, 0)
 InfiniteYield.BorderSizePixel = 0
 InfiniteYield.Position = UDim2.new(0.550623596, 0, 0.128429323, 0)
 InfiniteYield.Size = UDim2.new(0.312820524, 0, 0.300546438, 0)
 
-UICorner_18.Parent = InfiniteYield
+UICorner_26.Parent = InfiniteYield
 
 Execute_2.Name = "Execute"
 Execute_2.Parent = InfiniteYield
@@ -533,7 +820,7 @@ Execute_2.TextScaled = true
 Execute_2.TextSize = 20
 Execute_2.TextWrapped = true
 
-UICorner_19.Parent = Execute_2
+UICorner_27.Parent = Execute_2
 
 TitleRewrite_2.Name = "TitleRewrite"
 TitleRewrite_2.Parent = InfiniteYield
@@ -550,30 +837,30 @@ TitleRewrite_2.TextScaled = true
 TitleRewrite_2.TextSize = 18
 TitleRewrite_2.TextWrapped = true
 
-Desc_6.Name = "Desc"
-Desc_6.Parent = InfiniteYield
-Desc_6.BackgroundColor3 = Color3.new(1, 1, 1)
-Desc_6.BackgroundTransparency = 1
-Desc_6.BorderColor3 = Color3.new(0, 0, 0)
-Desc_6.BorderSizePixel = 0
-Desc_6.Position = UDim2.new(-0.0039372677, 0, 0.319683284, 0)
-Desc_6.Size = UDim2.new(1.01092899, 0, 0.209090903, 0)
-Desc_6.Font = Enum.Font.FredokaOne
-Desc_6.Text = "Loads Infinite Yield v6.3"
-Desc_6.TextColor3 = Color3.new(1, 1, 1)
-Desc_6.TextScaled = true
-Desc_6.TextSize = 13
-Desc_6.TextWrapped = true
+Desc_7.Name = "Desc"
+Desc_7.Parent = InfiniteYield
+Desc_7.BackgroundColor3 = Color3.new(1, 1, 1)
+Desc_7.BackgroundTransparency = 1
+Desc_7.BorderColor3 = Color3.new(0, 0, 0)
+Desc_7.BorderSizePixel = 0
+Desc_7.Position = UDim2.new(-0.0039372677, 0, 0.319683284, 0)
+Desc_7.Size = UDim2.new(1.01092899, 0, 0.209090903, 0)
+Desc_7.Font = Enum.Font.FredokaOne
+Desc_7.Text = "Loads Infinite Yield v6.3"
+Desc_7.TextColor3 = Color3.new(1, 1, 1)
+Desc_7.TextScaled = true
+Desc_7.TextSize = 13
+Desc_7.TextWrapped = true
 
 Dex.Name = "Dex"
-Dex.Parent = Others
+Dex.Parent = Main
 Dex.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
 Dex.BorderColor3 = Color3.new(0, 0, 0)
 Dex.BorderSizePixel = 0
 Dex.Position = UDim2.new(0.130137771, 0, 0.478064388, 0)
 Dex.Size = UDim2.new(0.312820524, 0, 0.300546438, 0)
 
-UICorner_20.Parent = Dex
+UICorner_28.Parent = Dex
 
 TitleRise_2.Name = "TitleRise"
 TitleRise_2.Parent = Dex
@@ -590,20 +877,20 @@ TitleRise_2.TextScaled = true
 TitleRise_2.TextSize = 20
 TitleRise_2.TextWrapped = true
 
-Desc_7.Name = "Desc"
-Desc_7.Parent = Dex
-Desc_7.BackgroundColor3 = Color3.new(1, 1, 1)
-Desc_7.BackgroundTransparency = 1
-Desc_7.BorderColor3 = Color3.new(0, 0, 0)
-Desc_7.BorderSizePixel = 0
-Desc_7.Position = UDim2.new(-0.0039372677, 0, 0.319683284, 0)
-Desc_7.Size = UDim2.new(1.01092899, 0, 0.209090903, 0)
-Desc_7.Font = Enum.Font.FredokaOne
-Desc_7.Text = "Loads the original Dex"
-Desc_7.TextColor3 = Color3.new(1, 1, 1)
-Desc_7.TextScaled = true
-Desc_7.TextSize = 13
-Desc_7.TextWrapped = true
+Desc_8.Name = "Desc"
+Desc_8.Parent = Dex
+Desc_8.BackgroundColor3 = Color3.new(1, 1, 1)
+Desc_8.BackgroundTransparency = 1
+Desc_8.BorderColor3 = Color3.new(0, 0, 0)
+Desc_8.BorderSizePixel = 0
+Desc_8.Position = UDim2.new(-0.0039372677, 0, 0.319683284, 0)
+Desc_8.Size = UDim2.new(1.01092899, 0, 0.209090903, 0)
+Desc_8.Font = Enum.Font.FredokaOne
+Desc_8.Text = "Loads the original Dex"
+Desc_8.TextColor3 = Color3.new(1, 1, 1)
+Desc_8.TextScaled = true
+Desc_8.TextSize = 13
+Desc_8.TextWrapped = true
 
 Execute_3.Name = "Execute"
 Execute_3.Parent = Dex
@@ -619,17 +906,17 @@ Execute_3.TextScaled = true
 Execute_3.TextSize = 20
 Execute_3.TextWrapped = true
 
-UICorner_21.Parent = Execute_3
+UICorner_29.Parent = Execute_3
 
 Soon.Name = "Soon"
-Soon.Parent = Others
+Soon.Parent = Main
 Soon.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
 Soon.BorderColor3 = Color3.new(0, 0, 0)
 Soon.BorderSizePixel = 0
 Soon.Position = UDim2.new(0.550623596, 0, 0.477950186, 0)
 Soon.Size = UDim2.new(0.312820524, 0, 0.300546438, 0)
 
-UICorner_22.Parent = Soon
+UICorner_30.Parent = Soon
 
 Soon_2.Name = "Soon"
 Soon_2.Parent = Soon
@@ -645,7 +932,7 @@ Soon_2.TextScaled = true
 Soon_2.TextSize = 20
 Soon_2.TextWrapped = true
 
-UICorner_23.Parent = Soon_2
+UICorner_31.Parent = Soon_2
 
 TitlePacket_2.Name = "TitlePacket"
 TitlePacket_2.Parent = Soon
@@ -662,424 +949,51 @@ TitlePacket_2.TextScaled = true
 TitlePacket_2.TextSize = 20
 TitlePacket_2.TextWrapped = true
 
-Desc_8.Name = "Desc"
-Desc_8.Parent = Soon
-Desc_8.BackgroundColor3 = Color3.new(1, 1, 1)
-Desc_8.BackgroundTransparency = 1
-Desc_8.BorderColor3 = Color3.new(0, 0, 0)
-Desc_8.BorderSizePixel = 0
-Desc_8.Position = UDim2.new(-0.0039372677, 0, 0.319683284, 0)
-Desc_8.Size = UDim2.new(1.01092899, 0, 0.209090903, 0)
-Desc_8.Font = Enum.Font.FredokaOne
-Desc_8.Text = "No Description"
-Desc_8.TextColor3 = Color3.new(1, 1, 1)
-Desc_8.TextScaled = true
-Desc_8.TextSize = 13
-Desc_8.TextWrapped = true
-
-OtherO.Name = "OtherO"
-OtherO.Parent = Background
-OtherO.BackgroundColor3 = Color3.new(0.12549, 1, 0)
-OtherO.BorderColor3 = Color3.new(0, 0, 0)
-OtherO.BorderSizePixel = 0
-OtherO.Position = UDim2.new(0.346160471, 0, 0.802418888, 0)
-OtherO.Size = UDim2.new(0.307456911, 0, 0.0957690179, 0)
-OtherO.ZIndex = 2
-OtherO.Font = Enum.Font.FredokaOne
-OtherO.Text = "Other Scripts 📜"
-OtherO.TextColor3 = Color3.new(1, 1, 1)
-OtherO.TextScaled = true
-OtherO.TextSize = 20
-OtherO.TextWrapped = true
-
-UICorner_24.Parent = OtherO
-
-PrivateO.Name = "PrivateO"
-PrivateO.Parent = Background
-PrivateO.BackgroundColor3 = Color3.new(0.615686, 0, 1)
-PrivateO.BorderColor3 = Color3.new(0, 0, 0)
-PrivateO.BorderSizePixel = 0
-PrivateO.Position = UDim2.new(0.391000003, 0, 0.910000026, 0)
-PrivateO.Size = UDim2.new(0.210255191, 0, 0.0601052828, 0)
-PrivateO.ZIndex = 2
-PrivateO.Font = Enum.Font.FredokaOne
-PrivateO.Text = "Voidware Private"
-PrivateO.TextColor3 = Color3.new(1, 1, 1)
-PrivateO.TextScaled = true
-PrivateO.TextSize = 20
-PrivateO.TextWrapped = true
-
-UICorner_25.Parent = PrivateO
-
-Private.Name = "Private"
-Private.Parent = Background
-Private.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
-Private.BorderColor3 = Color3.new(0, 0, 0)
-Private.BorderSizePixel = 0
-Private.Position = UDim2.new(0.0100334445, 0, 0.0158730168, 0)
-Private.Size = UDim2.new(0.978260875, 0, 0.96825397, 0)
-Private.Visible = false
-
-UICorner_26.Parent = Private
-
-Title_4.Name = "Title"
-Title_4.Parent = Private
-Title_4.BackgroundColor3 = Color3.new(1, 1, 1)
-Title_4.BackgroundTransparency = 1
-Title_4.BorderColor3 = Color3.new(0, 0, 0)
-Title_4.BorderSizePixel = 0
-Title_4.Position = UDim2.new(0.340325147, 0, 0.0196832754, 0)
-Title_4.Size = UDim2.new(0.316239327, 0, 0.0765027329, 0)
-Title_4.Font = Enum.Font.FredokaOne
-Title_4.Text = "Voidware Private"
-Title_4.TextColor3 = Color3.new(1, 1, 1)
-Title_4.TextScaled = true
-Title_4.TextSize = 30
-Title_4.TextWrapped = true
-
-Permanent.Name = "Permanent"
-Permanent.Parent = Private
-Permanent.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
-Permanent.BorderColor3 = Color3.new(0, 0, 0)
-Permanent.BorderSizePixel = 0
-Permanent.Position = UDim2.new(0.0450308807, 0, 0.183650956, 0)
-Permanent.Size = UDim2.new(0.177975491, 0, 0.267469823, 0)
-Permanent.Font = Enum.Font.FredokaOne
-Permanent.Text = " "
-Permanent.TextColor3 = Color3.new(1, 1, 1)
-Permanent.TextScaled = true
-Permanent.TextSize = 20
-Permanent.TextWrapped = true
-
-UICorner_27.Parent = Permanent
-
-ImageLabel.Parent = Permanent
-ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
-ImageLabel.BackgroundTransparency = 1
-ImageLabel.BorderColor3 = Color3.new(0, 0, 0)
-ImageLabel.BorderSizePixel = 0
-ImageLabel.Position = UDim2.new(0.176940277, 0, 0.0125193894, 0)
-ImageLabel.Size = UDim2.new(0.644568145, 0, 0.663507342, 0)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=13729415782"
-
-Title_5.Name = "Title"
-Title_5.Parent = Permanent
-Title_5.BackgroundColor3 = Color3.new(1, 1, 1)
-Title_5.BackgroundTransparency = 1
-Title_5.BorderColor3 = Color3.new(0, 0, 0)
-Title_5.BorderSizePixel = 0
-Title_5.Position = UDim2.new(-0.000916614139, 0, 0.987562001, 0)
-Title_5.Size = UDim2.new(1.00091636, 0, -0.315210432, 0)
-Title_5.Font = Enum.Font.FredokaOne
-Title_5.Text = "VW INF"
-Title_5.TextColor3 = Color3.new(1, 1, 1)
-Title_5.TextScaled = true
-Title_5.TextSize = 30
-Title_5.TextWrapped = true
-
-Current.Name = "Current"
-Current.Parent = Private
-Current.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
-Current.BorderColor3 = Color3.new(0, 0, 0)
-Current.BorderSizePixel = 0
-Current.Position = UDim2.new(0.583620071, 0, 0.0961860195, 0)
-Current.Size = UDim2.new(0.404674232, 0, 0.682424843, 0)
-
-UICorner_28.Parent = Current
-
-Title_6.Name = "Title"
-Title_6.Parent = Current
-Title_6.BackgroundColor3 = Color3.new(1, 1, 1)
-Title_6.BackgroundTransparency = 1
-Title_6.BorderColor3 = Color3.new(0, 0, 0)
-Title_6.BorderSizePixel = 0
-Title_6.Position = UDim2.new(0, 0, 0.0196833052, 0)
-Title_6.Size = UDim2.new(0.999998987, 0, 0.113391481, 0)
-Title_6.Font = Enum.Font.FredokaOne
-Title_6.Text = " "
-Title_6.TextColor3 = Color3.new(0.533333, 0, 1)
-Title_6.TextScaled = true
-Title_6.TextSize = 30
-Title_6.TextWrapped = true
-
 Desc_9.Name = "Desc"
-Desc_9.Parent = Current
+Desc_9.Parent = Soon
 Desc_9.BackgroundColor3 = Color3.new(1, 1, 1)
 Desc_9.BackgroundTransparency = 1
 Desc_9.BorderColor3 = Color3.new(0, 0, 0)
 Desc_9.BorderSizePixel = 0
-Desc_9.Position = UDim2.new(0, 0, 0.161977723, 0)
-Desc_9.Size = UDim2.new(0.999998987, 0, 0.838022411, 0)
+Desc_9.Position = UDim2.new(-0.0039372677, 0, 0.319683284, 0)
+Desc_9.Size = UDim2.new(1.01092899, 0, 0.209090903, 0)
 Desc_9.Font = Enum.Font.FredokaOne
-Desc_9.Text = " "
+Desc_9.Text = "No Description"
 Desc_9.TextColor3 = Color3.new(1, 1, 1)
 Desc_9.TextScaled = true
-Desc_9.TextSize = 30
+Desc_9.TextSize = 13
 Desc_9.TextWrapped = true
-
-Boost.Name = "Boost"
-Boost.Parent = Private
-Boost.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
-Boost.BorderColor3 = Color3.new(0, 0, 0)
-Boost.BorderSizePixel = 0
-Boost.Position = UDim2.new(0.299208492, 0, 0.183650956, 0)
-Boost.Size = UDim2.new(0.177975491, 0, 0.267469823, 0)
-Boost.Font = Enum.Font.FredokaOne
-Boost.Text = " "
-Boost.TextColor3 = Color3.new(1, 1, 1)
-Boost.TextScaled = true
-Boost.TextSize = 20
-Boost.TextWrapped = true
-
-UICorner_29.Parent = Boost
-
-ImageLabel_2.Parent = Boost
-ImageLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
-ImageLabel_2.BackgroundTransparency = 1
-ImageLabel_2.BorderColor3 = Color3.new(0, 0, 0)
-ImageLabel_2.BorderSizePixel = 0
-ImageLabel_2.Position = UDim2.new(0.176940277, 0, 0.0125193894, 0)
-ImageLabel_2.Size = UDim2.new(0.644568145, 0, 0.663507342, 0)
-ImageLabel_2.Image = "http://www.roblox.com/asset/?id=88766266196353"
-
-Title_7.Name = "Title"
-Title_7.Parent = Boost
-Title_7.BackgroundColor3 = Color3.new(1, 1, 1)
-Title_7.BackgroundTransparency = 1
-Title_7.BorderColor3 = Color3.new(0, 0, 0)
-Title_7.BorderSizePixel = 0
-Title_7.Position = UDim2.new(-0.000916614139, 0, 0.987562001, 0)
-Title_7.Size = UDim2.new(1.00091636, 0, -0.315210432, 0)
-Title_7.Font = Enum.Font.FredokaOne
-Title_7.Text = "VW Premium"
-Title_7.TextColor3 = Color3.new(1, 1, 1)
-Title_7.TextScaled = true
-Title_7.TextSize = 30
-Title_7.TextWrapped = true
-
-CC.Name = "CC"
-CC.Parent = Private
-CC.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
-CC.BorderColor3 = Color3.new(0, 0, 0)
-CC.BorderSizePixel = 0
-CC.Position = UDim2.new(0.299208492, 0, 0.508451283, 0)
-CC.Size = UDim2.new(0.177975491, 0, 0.267469823, 0)
-CC.Font = Enum.Font.FredokaOne
-CC.Text = " "
-CC.TextColor3 = Color3.new(1, 1, 1)
-CC.TextScaled = true
-CC.TextSize = 20
-CC.TextWrapped = true
-
-UICorner_30.Parent = CC
-
-ImageLabel_3.Parent = CC
-ImageLabel_3.BackgroundColor3 = Color3.new(1, 1, 1)
-ImageLabel_3.BackgroundTransparency = 1
-ImageLabel_3.BorderColor3 = Color3.new(0, 0, 0)
-ImageLabel_3.BorderSizePixel = 0
-ImageLabel_3.Position = UDim2.new(0.176940277, 0, 0.0125193894, 0)
-ImageLabel_3.Size = UDim2.new(0.644568145, 0, 0.663507342, 0)
-ImageLabel_3.Image = "http://www.roblox.com/asset/?id=86797609152006"
-
-Title_8.Name = "Title"
-Title_8.Parent = CC
-Title_8.BackgroundColor3 = Color3.new(1, 1, 1)
-Title_8.BackgroundTransparency = 1
-Title_8.BorderColor3 = Color3.new(0, 0, 0)
-Title_8.BorderSizePixel = 0
-Title_8.Position = UDim2.new(-0.000916614139, 0, 0.987562001, 0)
-Title_8.Size = UDim2.new(1.00091636, 0, -0.315210432, 0)
-Title_8.Font = Enum.Font.FredokaOne
-Title_8.Text = "Content Creator"
-Title_8.TextColor3 = Color3.new(1, 1, 1)
-Title_8.TextScaled = true
-Title_8.TextSize = 30
-Title_8.TextWrapped = true
-
-Pay.Name = "Pay"
-Pay.Parent = Private
-Pay.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
-Pay.BorderColor3 = Color3.new(0, 0, 0)
-Pay.BorderSizePixel = 0
-Pay.Position = UDim2.new(0.0450308807, 0, 0.508451283, 0)
-Pay.Size = UDim2.new(0.177975491, 0, 0.267469823, 0)
-Pay.Font = Enum.Font.FredokaOne
-Pay.Text = " "
-Pay.TextColor3 = Color3.new(1, 1, 1)
-Pay.TextScaled = true
-Pay.TextSize = 20
-Pay.TextWrapped = true
-
-UICorner_31.Parent = Pay
-
-ImageLabel_4.Parent = Pay
-ImageLabel_4.BackgroundColor3 = Color3.new(1, 1, 1)
-ImageLabel_4.BackgroundTransparency = 1
-ImageLabel_4.BorderColor3 = Color3.new(0, 0, 0)
-ImageLabel_4.BorderSizePixel = 0
-ImageLabel_4.Position = UDim2.new(0.126385912, 0, 0.0125193894, 0)
-ImageLabel_4.Size = UDim2.new(0.733038366, 0, 0.738621473, 0)
-ImageLabel_4.Image = "http://www.roblox.com/asset/?id=15178979114"
-
-Title_9.Name = "Title"
-Title_9.Parent = Pay
-Title_9.BackgroundColor3 = Color3.new(1, 1, 1)
-Title_9.BackgroundTransparency = 1
-Title_9.BorderColor3 = Color3.new(0, 0, 0)
-Title_9.BorderSizePixel = 0
-Title_9.Position = UDim2.new(-0.000916614139, 0, 0.987562001, 0)
-Title_9.Size = UDim2.new(1.00091636, 0, -0.315210432, 0)
-Title_9.Font = Enum.Font.FredokaOne
-Title_9.Text = "Paypal"
-Title_9.TextColor3 = Color3.new(1, 1, 1)
-Title_9.TextScaled = true
-Title_9.TextSize = 30
-Title_9.TextWrapped = true
-
-Description.Name = "Description"
-Description.Parent = Private
-Description.BackgroundColor3 = Color3.new(1, 1, 1)
-Description.BackgroundTransparency = 1
-Description.BorderColor3 = Color3.new(0, 0, 0)
-Description.BorderSizePixel = 0
-Description.Position = UDim2.new(0.0231654402, 0, 0.809919059, 0)
-Description.Size = UDim2.new(0.316239327, 0, 0.0765027329, 0)
-Description.Font = Enum.Font.FredokaOne
-Description.Text = "More Options in discord server!"
-Description.TextColor3 = Color3.new(1, 1, 1)
-Description.TextScaled = true
-Description.TextSize = 30
-Description.TextWrapped = true
-
-Buy.Name = "Buy"
-Buy.Parent = Private
-Buy.BackgroundColor3 = Color3.new(0.54902, 0, 1)
-Buy.BorderColor3 = Color3.new(0, 0, 0)
-Buy.BorderSizePixel = 0
-Buy.Position = UDim2.new(0.77017045, 0, 0.923442602, 0)
-Buy.Size = UDim2.new(0.21663779, 0, 0.0616318993, 0)
-Buy.ZIndex = 2
-Buy.Font = Enum.Font.FredokaOne
-Buy.Text = "Buy Voidware INF 💰"
-Buy.TextColor3 = Color3.new(1, 1, 1)
-Buy.TextScaled = true
-Buy.TextSize = 20
-Buy.TextWrapped = true
-Buy.Visible = false
-
-UICorner_32.Parent = Buy
 
 Toggle.Name = "Toggle"
 Toggle.Parent = Script
 Toggle.BackgroundColor3 = Color3.new(1, 1, 1)
 Toggle.BorderColor3 = Color3.new(0, 0, 0)
 Toggle.BorderSizePixel = 0
-Toggle.Position = UDim2.new(0.478656828, 0, -0.000642199011, 0)
-Toggle.Size = UDim2.new(0.0405820943, 0, 0.0888807327, 0)
+Toggle.Position = UDim2.new(0.478409141, 0, -0.000642199011, 0)
+Toggle.Size = UDim2.new(0.0411269888, 0, 0.0888807327, 0)
 Toggle.Image = "http://www.roblox.com/asset/?id=113903023468514"
 
-UICorner_33.Parent = Toggle
+UICorner_32.Parent = Toggle
+
+UIScale_2.Parent = Toggle
 
 -- Scripts
 
-local function ERWASLV_fake_script() -- OldE.LocalScript 
-	local script = Instance.new('LocalScript', OldE)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/vapevoidware/main/NewMainScript.lua', true))()
-	end)
-end
-coroutine.wrap(ERWASLV_fake_script)()
-local function CDBY_fake_script() -- ReC.LocalScript 
-	local script = Instance.new('LocalScript', ReC)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VWExtra/main/installer.lua", true))()
-	end)
-end
-coroutine.wrap(CDBY_fake_script)()
-local function TIGK_fake_script() -- ReE.LocalScript 
-	local script = Instance.new('LocalScript', ReE)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWRewrite/main/NewMainScript.lua', true))()
-	end)
-end
-coroutine.wrap(TIGK_fake_script)()
-local function ZGADUVB_fake_script() -- RiseE.LocalScript 
-	local script = Instance.new('LocalScript', RiseE)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWRise/refs/heads/main/NewMainScript.lua', true))()
-	end)
-end
-coroutine.wrap(ZGADUVB_fake_script)()
-local function VQUGSUW_fake_script() -- PacketE.LocalScript 
-	local script = Instance.new('LocalScript', PacketE)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWPacket/main/NewMainScript.lua', true))()
-	end)
-end
-coroutine.wrap(VQUGSUW_fake_script)()
-local function RTMENE_fake_script() -- Execute.LocalScript 
-	local script = Instance.new('LocalScript', Execute)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWRewrite/main/NewMainScript.lua', true))()
-	end)
-end
-coroutine.wrap(RTMENE_fake_script)()
-local function GSHVTBI_fake_script() -- Execute_2.LocalScript 
-	local script = Instance.new('LocalScript', Execute_2)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
-	end)
-end
-coroutine.wrap(GSHVTBI_fake_script)()
-local function VVPC_fake_script() -- Execute_3.LocalScript 
-	local script = Instance.new('LocalScript', Execute_3)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
-	end)
-end
-coroutine.wrap(VVPC_fake_script)()
-local function PYSMVAT_fake_script() -- OtherO.LocalScript 
-	local script = Instance.new('LocalScript', OtherO)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.Others.Visible==false then
-			script.Parent.Parent.Others.Visible=true
-			script.Parent.Parent.Main.Visible=false
-			script.Parent.Parent.Private.Visible=false
-		elseif script.Parent.Parent.Others.Visible==true then
-			script.Parent.Parent.Others.Visible=false
-			script.Parent.Parent.Main.Visible=true
-			script.Parent.Parent.Private.Visible=false
-		end
-	end)
-end
-coroutine.wrap(PYSMVAT_fake_script)()
-local function GANX_fake_script() -- PrivateO.LocalScript 
+local function JLLI_fake_script() -- PrivateO.LocalScript 
 	local script = Instance.new('LocalScript', PrivateO)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.Private.Visible==false then
-			script.Parent.Parent.Others.Visible=false
-			script.Parent.Parent.Main.Visible=false
-			script.Parent.Parent.Private.Visible=true
-		elseif script.Parent.Parent.Private.Visible==true then
-			script.Parent.Parent.Others.Visible=true
-			script.Parent.Parent.Main.Visible=false
-			script.Parent.Parent.Private.Visible=false
+		if script.Parent.Parent.Private.Visible == true then
+			script.Parent.Parent.Private.Visible = false
+			script.Parent.Parent.Main.Visible = true
+		elseif script.Parent.Parent.Private.Visible == false then
+			script.Parent.Parent.Private.Visible = true
+			script.Parent.Parent.Main.Visible = false
 		end
 	end)
 end
-coroutine.wrap(GANX_fake_script)()
-local function RDYVLY_fake_script() -- Permanent.LocalScript 
+coroutine.wrap(JLLI_fake_script)()
+local function DAUFSV_fake_script() -- Permanent.LocalScript 
 	local script = Instance.new('LocalScript', Permanent)
 
 	local title = script.Parent.Parent.Current.Title
@@ -1091,8 +1005,8 @@ local function RDYVLY_fake_script() -- Permanent.LocalScript
 		desc.Text = "Your Voidware Private will stay forever for a amount of 1k Robux. To purchase gamepass, go to discord.gg/voidware and open ticket to claim!"
 	end)
 end
-coroutine.wrap(RDYVLY_fake_script)()
-local function KAYNWWY_fake_script() -- Boost.LocalScript 
+coroutine.wrap(DAUFSV_fake_script)()
+local function MWKWQPB_fake_script() -- Boost.LocalScript 
 	local script = Instance.new('LocalScript', Boost)
 
 	local title = script.Parent.Parent.Current.Title
@@ -1104,8 +1018,8 @@ local function KAYNWWY_fake_script() -- Boost.LocalScript
 		desc.Text = "Your Voidware Private is temporary. It will stay with you till you're boosting there server. Unboosting the server will make you lose your Private. discord.gg/voidware"
 	end)
 end
-coroutine.wrap(KAYNWWY_fake_script)()
-local function EUOYWR_fake_script() -- CC.LocalScript 
+coroutine.wrap(MWKWQPB_fake_script)()
+local function OUSSVNJ_fake_script() -- CC.LocalScript 
 	local script = Instance.new('LocalScript', CC)
 
 	local title = script.Parent.Parent.Current.Title
@@ -1117,8 +1031,8 @@ local function EUOYWR_fake_script() -- CC.LocalScript
 		desc.Text = "Your Voidware Private is temporary. It'll stay with you if you promote Voidware on YT. 500 views on VW videos required to apply."
 	end)
 end
-coroutine.wrap(EUOYWR_fake_script)()
-local function QDODXC_fake_script() -- Pay.LocalScript 
+coroutine.wrap(OUSSVNJ_fake_script)()
+local function OYQTL_fake_script() -- Pay.LocalScript 
 	local script = Instance.new('LocalScript', Pay)
 
 	local title = script.Parent.Parent.Current.Title
@@ -1130,8 +1044,8 @@ local function QDODXC_fake_script() -- Pay.LocalScript
 		desc.Text = "Your Voidware Private is Permanent. It'll stay with you forever if you pay using Paypal!"
 	end)
 end
-coroutine.wrap(QDODXC_fake_script)()
-local function NTOZ_fake_script() -- Buy.LocalScript 
+coroutine.wrap(OYQTL_fake_script)()
+local function BSYI_fake_script() -- Buy.LocalScript 
 	local script = Instance.new('LocalScript', Buy)
 
 	
@@ -1142,8 +1056,89 @@ local function NTOZ_fake_script() -- Buy.LocalScript
 		MarketplaceService:PromptGamePassPurchase(game.Players.LocalPlayer, GamepassID)
 	end)
 end
-coroutine.wrap(NTOZ_fake_script)()
-local function MTNSOKD_fake_script() -- Toggle.LocalScript 
+coroutine.wrap(BSYI_fake_script)()
+local function VNNK_fake_script() -- Back.LocalScript 
+	local script = Instance.new('LocalScript', Back)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Main.Visible = true
+	end)
+end
+coroutine.wrap(VNNK_fake_script)()
+local function SXWVW_fake_script() -- RiseE.LocalScript 
+	local script = Instance.new('LocalScript', RiseE)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWRise/refs/heads/main/NewMainScript.lua', true))()
+	end)
+end
+coroutine.wrap(SXWVW_fake_script)()
+local function BGMKQTO_fake_script() -- ReC.LocalScript 
+	local script = Instance.new('LocalScript', ReC)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VWExtra/main/installer.lua", true))()
+	end)
+end
+coroutine.wrap(BGMKQTO_fake_script)()
+local function DHNLE_fake_script() -- ReE.LocalScript 
+	local script = Instance.new('LocalScript', ReE)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWRewrite/main/NewMainScript.lua', true))()
+	end)
+end
+coroutine.wrap(DHNLE_fake_script)()
+local function MAKFK_fake_script() -- PacketE.LocalScript 
+	local script = Instance.new('LocalScript', PacketE)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWPacket/main/NewMainScript.lua', true))()
+	end)
+end
+coroutine.wrap(MAKFK_fake_script)()
+local function OBFOC_fake_script() -- OldE.LocalScript 
+	local script = Instance.new('LocalScript', OldE)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/vapevoidware/main/NewMainScript.lua', true))()
+	end)
+end
+coroutine.wrap(OBFOC_fake_script)()
+local function PZIFN_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	game:GetService("RunService").RenderStepped:Connect(function()
+		script.Parent.CanvasSize = UDim2.new(0,0,0,script.Parent.UIGridLayout.AbsoluteContentSize.Y)
+	end)
+end
+coroutine.wrap(PZIFN_fake_script)()
+local function BIZG_fake_script() -- Execute.LocalScript 
+	local script = Instance.new('LocalScript', Execute)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWRewrite/main/NewMainScript.lua', true))()
+	end)
+end
+coroutine.wrap(BIZG_fake_script)()
+local function JDTWC_fake_script() -- Execute_2.LocalScript 
+	local script = Instance.new('LocalScript', Execute_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+	end)
+end
+coroutine.wrap(JDTWC_fake_script)()
+local function UPMY_fake_script() -- Execute_3.LocalScript 
+	local script = Instance.new('LocalScript', Execute_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
+	end)
+end
+coroutine.wrap(UPMY_fake_script)()
+local function RAJYA_fake_script() -- Toggle.LocalScript 
 	local script = Instance.new('LocalScript', Toggle)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1154,4 +1149,4 @@ local function MTNSOKD_fake_script() -- Toggle.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MTNSOKD_fake_script)()
+coroutine.wrap(RAJYA_fake_script)()
